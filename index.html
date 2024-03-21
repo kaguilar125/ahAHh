@@ -9,8 +9,7 @@
   </head>
   <body>
     <div id="grid1" class="container mt-5">
-        <div class="row">
-          <div class="col-1"></div>
+        <div class="row align-items-center">
           <div class="col-1">
             <p>Prices</p>
           </div>
@@ -20,34 +19,31 @@
           <div class="col-1">
             <p>Contracts</p>
           </div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1">
+          
+          <div class="col-1 ms-auto"><!-- ms-auto moves these to the right -->
             <p>Log In</p>
           </div>
-          <div class="col-1">
-            <button class="button">
+          <div class="col-2">
+            <button id="nav-btn" class="button">
               <span class="button-content">Sign Up</span>
             </button>
           </div>
-          <div class="col-1"></div>
         </div>
+
+        <hr>
 
         <div class="row">
           <div class="col-6">
             <div class="row">
               <div class="col">
-                <p>You can insure</p>
-                <p>anything.</p>
-                <p>Including pets!</p>
+                <h1>You can insure</h1>
+                <h1>anything.</h1>
+                <h1>Including pets!</h1>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <button class="button">
+                <button id="mid-btn" class="button">
                   <span class="button-content">CHOOSE A PLAN</span>
                 </button>
               </div>
@@ -60,28 +56,43 @@
 
         <div class="row">
           <div class="col-3">
-            <img src="img/health.png" class="rounded float-start" alt="...">
-          </div>
-          <div class="col-3">
-            <img src="img/finance.png" class="rounded float-start" alt="...">
-          </div>
-          <div class="col-3">
-            <img src="img/travel.png" class="rounded float-start" alt="...">
-          </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title"><img src="img/property.png" class="rounded float-start" alt="..."></h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
+            <div class="card">
+            <img src="img/health.png" class="rounded float-start icon-img1" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Health</h5>
+              <p class="card-text">You can insure not only<br>yourself, but also your loved<br>ones and pets.<br/></p>
             </div>
           </div>
         </div>
+          <div class="col-3">
+            <div class="card">
+            <img src="img/finance.png" class="rounded float-start icon-img2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Finance</h5>
+              <p class="card-text">Your money will always be<br>well protected, no matter<br>what happens.<br/></p>
+            </div>
+          </div>
+        </div>
+          <div class="col-3">
+            <div class="card">
+            <img src="img/travel.png" class="rounded float-start icon-img3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Travel</h5>
+              <p class="card-text">Skis, a board, maybe a<br>parachute? Try anything you<br>want, and we'll take care of you.<br/></p>
+            </div>
+          </div>
+        </div>
+          <div class="col-3">
+            <div class="card">
+              <img src="img/property.png" class="rounded float-start icon-img4" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Property</h5>
+                <p class="card-text">Flooded or had something<br> stolen? Yes, it's really<br> awful, but we can help.<br/></p>
+              </div>
+            </div>
+          </div>
 
-
+        </div>
 
 
 
