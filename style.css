@@ -9,12 +9,15 @@ p {
 
 .card {
   width: 100%;
+  background-color: #8E7BFF !important;
+
 }
 
 .icon-img1 {
   width: 24%;
   padding-top: 15px;
   padding-left: 15px;
+  
 }
 
 .icon-img2 {
@@ -38,10 +41,13 @@ p {
 
 #nav-btn {
   width: 100%;
+  background: #8E7BFF;
 }
 
 #mid-btn {
   margin-left:30px;
+  margin-top: 25px;
+  background-color: #80ea99;
 }
 
 .button {
@@ -50,7 +56,6 @@ p {
     height: 3rem;
     padding: 0 2rem;
     border-radius: 1.5rem;
-    background: #3d3a4e;
     background-size: 400%;
     color: #fff;
     border: none;
@@ -84,3 +89,33 @@ p {
     transition: all 0.475s;
   }
   
+  #row2{
+    margin-top: 55px;
+    margin-left: 20px;
+  }
+
+  h1{
+    font-size: 60px !important;
+    color:;
+    font-weight: 600px;
+  }
+
+  .card-title{
+    color: white !important;
+    font-weight: bold;
+    font-size: 31px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .card-text{
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nb{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight: bold;
+  }
